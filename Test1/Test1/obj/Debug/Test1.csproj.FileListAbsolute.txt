@@ -5,3 +5,6 @@ Q:\VSProjects\Test1\Test1\bin\Debug\Test1.exe
 Q:\VSProjects\Test1\Test1\bin\Debug\Test1.pdb
 Q:\VSProjects\Test1\Test1\obj\Debug\Test1.exe
 Q:\VSProjects\Test1\Test1\obj\Debug\Test1.pdb
+Q:\VSProjects\Test1\Test1\bin\Debug\Newtonsoft.Json.dll
+Q:\VSProjects\Test1\Test1\bin\Debug\Newtonsoft.Json.xml
+Q:\VSProjects\Test1\Test1\obj\Debug\Test1.csproj.Up2Date

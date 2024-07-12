@@ -1,0 +1,10 @@
+Q:\VSProjects\Test1\Test1\bin\Release\Test1.exe.config
+Q:\VSProjects\Test1\Test1\bin\Release\Test1.exe
+Q:\VSProjects\Test1\Test1\bin\Release\Test1.pdb
+Q:\VSProjects\Test1\Test1\bin\Release\Newtonsoft.Json.dll
+Q:\VSProjects\Test1\Test1\bin\Release\Newtonsoft.Json.xml
+Q:\VSProjects\Test1\Test1\obj\Release\Test1.csproj.AssemblyReference.cache
+Q:\VSProjects\Test1\Test1\obj\Release\Test1.csproj.CoreCompileInputs.cache
+Q:\VSProjects\Test1\Test1\obj\Release\Test1.csproj.Up2Date
+Q:\VSProjects\Test1\Test1\obj\Release\Test1.exe
+Q:\VSProjects\Test1\Test1\obj\Release\Test1.pdb
