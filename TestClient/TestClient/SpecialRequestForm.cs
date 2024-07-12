@@ -25,14 +25,58 @@ namespace TestClient
 
         private void getIPBtn_Click(object sender, EventArgs e)
         {
-            string ip = specialRequestTxtBox.Text;
-            SendSpecialRequest($"GET_IPS|{ip}");
+            string ipAddress = specialRequestTxtBox.Text;
+            string request = $"SPECIAL_REQUEST:IPAddress:{ipAddress}";
+            Console.WriteLine("Sending request: " + request);
+
+            try
+            {
+                using (TcpClient client = new TcpClient(serverIp, port))
+                {
+                    NetworkStream stream = client.GetStream();
+                    StreamWriter writer = new StreamWriter(stream);
+                    StreamReader reader = new StreamReader(stream);
+
+                    writer.WriteLine(request);
+                    writer.Flush();
+                    Console.WriteLine("Request sent");
+
+                    string response = reader.ReadLine();
+                    Console.WriteLine("Received response: " + response);
+                    MessageBox.Show("Last Request Time: " + response);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void getLastReqBtn_Click(object sender, EventArgs e)
         {
-            string lastReq = specialRequestTxtBox.Text;
-            SendSpecialRequest($"GET_LAST_REQUEST|{lastReq}");
+            string machineName = specialRequestTxtBox.Text;
+            string request = $"SPECIAL_REQUEST:MachineName:{machineName}";
+
+            try
+            {
+                using (TcpClient client = new TcpClient(serverIp, port))
+                {
+                    NetworkStream stream = client.GetStream();
+                    StreamWriter writer = new StreamWriter(stream);
+                    StreamReader reader = new StreamReader(stream);
+
+                    writer.WriteLine(request);
+                    writer.Flush();
+
+                    string response = reader.ReadLine();
+                    MessageBox.Show("IP Addresses: " + response);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void SendSpecialRequest(string request)

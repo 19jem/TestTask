@@ -18,3 +18,6 @@ Q:\VSProjects\TestClient\TestClient\bin\Debug\net8.0-windows\TestClient.dll.conf
 Q:\VSProjects\TestClient\TestClient\obj\Debug\net8.0-windows\TestClient.LoginForm.resources
 Q:\VSProjects\TestClient\TestClient\obj\Debug\net8.0-windows\TestClient.SpecialRequestForm.resources
 Q:\VSProjects\TestClient\TestClient\obj\Debug\net8.0-windows\TestClient.SettingsForm.resources
+Q:\VSProjects\TestClient\TestClient\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+Q:\VSProjects\TestClient\TestClient\obj\Debug\net8.0-windows\TestClient.csproj.AssemblyReference.cache
+Q:\VSProjects\TestClient\TestClient\obj\Debug\net8.0-windows\TestClient.csproj.Up2Date

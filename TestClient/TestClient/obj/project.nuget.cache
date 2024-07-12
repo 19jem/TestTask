@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t762VJdIms0=",
+  "dgSpecHash": "pSc8ssVCOdo=",
   "success": true,
   "projectFilePath": "Q:\\VSProjects\\TestClient\\TestClient\\TestClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\slava\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

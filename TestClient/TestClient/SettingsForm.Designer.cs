@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            newIpTxtBox = new TextBox();
-            newPortTxtBox = new TextBox();
+            ipTxtBox = new TextBox();
+            portTxtBox = new TextBox();
             updateBtn = new Button();
             label1 = new Label();
             label2 = new Label();
             SuspendLayout();
             // 
-            // newIpTxtBox
+            // ipTxtBox
             // 
-            newIpTxtBox.Location = new Point(84, 118);
-            newIpTxtBox.Name = "newIpTxtBox";
-            newIpTxtBox.Size = new Size(299, 27);
-            newIpTxtBox.TabIndex = 0;
+            ipTxtBox.Location = new Point(84, 118);
+            ipTxtBox.Name = "ipTxtBox";
+            ipTxtBox.Size = new Size(299, 27);
+            ipTxtBox.TabIndex = 0;
             // 
-            // newPortTxtBox
+            // portTxtBox
             // 
-            newPortTxtBox.Location = new Point(82, 198);
-            newPortTxtBox.Name = "newPortTxtBox";
-            newPortTxtBox.Size = new Size(299, 27);
-            newPortTxtBox.TabIndex = 1;
+            portTxtBox.Location = new Point(82, 198);
+            portTxtBox.Name = "portTxtBox";
+            portTxtBox.Size = new Size(299, 27);
+            portTxtBox.TabIndex = 1;
             // 
             // updateBtn
             // 
@@ -85,8 +85,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(updateBtn);
-            Controls.Add(newPortTxtBox);
-            Controls.Add(newIpTxtBox);
+            Controls.Add(portTxtBox);
+            Controls.Add(ipTxtBox);
             Name = "SettingsForm";
             Text = "SettingsForm";
             ResumeLayout(false);
@@ -95,8 +95,8 @@
 
         #endregion
 
-        private TextBox newIpTxtBox;
-        private TextBox newPortTxtBox;
+        private TextBox ipTxtBox;
+        private TextBox portTxtBox;
         private Button updateBtn;
         private Label label1;
         private Label label2;
